@@ -163,6 +163,8 @@ display: flex;
 .iconListInfo img{
     height: 20px;
     width: 20px;
+    position: relative;
+    left: 75%;
     }
 
 .txtListInfo{
