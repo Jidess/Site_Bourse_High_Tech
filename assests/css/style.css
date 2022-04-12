@@ -51,6 +51,54 @@ body {
 }
 
 .navimg img {
-    height: 80px;
+    height: 70px;
     width: 80px;
 }
+
+.titlePage{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.349);
+    }
+
+.title h1{
+    font-size: 60px;
+    font-family: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.title div{
+    font-size: 48px;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 0px;
+}
+
+
+.flex {
+    display: flex;
+    font-size: 14px;
+
+    
+}
+
+
+
+
+
+
+/* fin de l'espace page principale  */
