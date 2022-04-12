@@ -60,6 +60,7 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .title{
@@ -88,13 +89,35 @@ body {
     margin-bottom: 0px;
 }
 
-
-.flex {
+.flex{
     display: flex;
+    margin-top: 50px;
     font-size: 14px;
-
+    gap: 6rem;
     
 }
+
+#buttonInfos{
+    background-color: rgba(0, 0, 0, 0.158);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#buttonInscription{
+    background-color: #E2001A;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
 
 
 
