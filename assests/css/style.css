@@ -1,14 +1,23 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
-.navbtn{
+.titlePage {
+    height: 90vh;
+    background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
+    background-size: 100%;
+    background-position-y: center;
+}
+
+.navbtn {
     display: flex;
     gap: 2rem;
     flex: 2;
@@ -16,20 +25,22 @@ body{
     font-size: 16px;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.navimg{
-    flex: 0,5;
+.navimg {
+    flex: 0.5;
+    margin-left: 2rem;
 }
 
-.navexpo{
-    flex: 0,5;
+.navexpo {
+    flex: 0.5;
+    margin-right: 2rem;
     text-align: end;
 }
 
-.butonexpo{
+.butonexpo {
     color: #E2001A;
     border: solid 1px;
     border-radius: 10px;
@@ -39,8 +50,7 @@ body{
     border-color: black;
 }
 
-.navimg img{
+.navimg img {
     height: 80px;
     width: 80px;
 }
-
