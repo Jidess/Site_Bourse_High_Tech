@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+#side {
+    background-color: #E2001A;
+    flex: 1;
+
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    flex: 9;
+}
+
+.icon {
+    color: white;
+    font-size: 24px;
+}
