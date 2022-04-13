@@ -3,6 +3,16 @@ body {
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.smoothScroll{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,12 +53,13 @@ body {
 
 .butonexpo {
     color: #E2001A;
-    border: solid 1px;
+    border: none;
     border-radius: 10px;
+    height: 36px;
     padding: 10px;
     font-size: 14px;
     background-color: white;
-    border-color: black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
 .navimg img {
@@ -101,20 +112,19 @@ body {
 #buttonInfos{
     background-color: rgba(0, 0, 0, 0.158);
     color: white;
-    border-radius: 8px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 10px;
+    height: 36px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
     
 }
 
 #buttonInscription{
     background-color: #E2001A;
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 36px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+    border: none;
 }
 
 
@@ -154,6 +164,7 @@ margin: 0px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5vh;
+    height: 81vh;
 }
 
 .iconListInfo{
@@ -266,7 +277,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 79vh;
+    height: 620px;
     background-color: #E2001A;
     color: white;
     position: relative;
@@ -314,7 +325,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 79vh;
+    height: 620px;
     position: relative;
     top: 0.9%;
     margin-right: 10%;
@@ -366,9 +377,10 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     left: 80%;
     bottom: 100%;
     border: none;
-    padding: 1rem;
+    height: 36px;
     border-radius: 10px;
     color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
 /* footer  */
