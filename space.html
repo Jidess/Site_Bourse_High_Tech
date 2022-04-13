@@ -9,17 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Espace exposant</title>
 </head>
 
 <body>
     <div id="side">
-        <div class="icon">
-        <img src="assests/icons/user-solid.svg">
+        <div id="topSide">
+            <object class="image" data="assests/icons/user-solid.svg" width="24px"></object>
+            <span id="span1">SAMSUNG</span>
+            <img class="image"src="assests/icons/bars-solid.svg" width="24px">
+        </div>
+        <div id="botSide">
+            <img class="image imageHome" src="assests/icons/house-user-solid.svg" width="24px">
+            <span id="span2">Accueil</span>
         </div>
     </div>
-    <div class="main"></div>
-
+    <div class="main">
+        <div class="wrapper">
+            <div class="topLine">
+                <h4>Bienvenue dans votre espace dédié exposant !</h4>
+                <img class="image imageBlack" src="assests/icons/power-off-solid.svg" width="24px">
+            </div>
+                <div class="formulaire">
+                    <form action="" method="get" class="form">
+                        <div class="form">
+                            <label for="name">Nom / Raison sociale </label>
+                            <input type="text" readonly="readonly" placeholder="SAMSUNG" name="name" id="name" required>
+                        </div>
+                        <div class="form">
+                            <label for="name">Etes-vous un professionnel ? </label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="form">
+                            <label for="name">Veuillez réserver un numéro d'emplacement disponible </label>
+                            <select name="zone" id="zone" required>
+                                <option value="meterNumber1">01</option>
+                                <option value="meterNumber2">02</option>
+                                <option value="meterNumber3">03</option>
+                                <option value="meterNumber4">04</option>
+                                <option value="meterNumber1">05</option>
+                                <option value="meterNumber2">06</option>
+                                <option value="meterNumber3">07</option>
+                                <option value="meterNumber4">08</option>
+                                <option value="meterNumber4">09</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="name">Sélectionnez la taille d'emplacement souhaitée </label>
+                            <select name="zone" id="zone" required>
+                                <option value="meterNumber1">1 m2</option>
+                                <option value="meterNumber2">2 m²</option>
+                                <option value="meterNumber3">3 m²</option>
+                                <option value="meterNumber4">4 m²</option>
+                                <option value="meterNumber1">5 m2</option>
+                                <option value="meterNumber2">6 m²</option>
+                                <option value="meterNumber3">7 m²</option>
+                                <option value="meterNumber4">8 m²</option>
+                                <option value="meterNumber4">9 m²</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="name">Nom du stand</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="form2">
+                            <input class="button" type="submit" value="ENVOYER">
+                        </div>
+                    </form>
+                </div>
+        </div>
+        <img class="image imageBlack parameter" src="assests/icons/gear-solid.svg" width="24px">
+        </div>
+        
 
 </body>
 

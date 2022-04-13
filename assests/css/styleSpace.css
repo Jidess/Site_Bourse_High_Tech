@@ -1,20 +1,137 @@
+/* eeeeeeeeet c'est parti ! */
+
+
 body {
+    font-family: Roboto;
+    font-size: 14px;
     height: 100vh;
     display: flex;
 }
 
-#side {
-    background-color: #E2001A;
-    flex: 1;
+    #side {
+        background-color: #E2001A;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+        #topSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 24px;
+        }
 
+        #botSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 24px;
+        }
+
+    .main {
+        background-color: rgb(255, 255, 255);
+        flex: 9;
+        display: flex;
+        /* z-index: auto; */
+    }
+
+        /* .parameter {
+            
+        } */
+
+        .wrapper {
+            background-color: white;
+            height: 660px;
+            width: 993px;
+            margin: auto;
+            border-radius: 16px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+            padding-left: 48px;
+        }
+
+            .topLine {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
 }
 
-.main {
-    background-color: rgb(255, 255, 255);
-    flex: 9;
+                    h4 {
+                        font-size: 24px;
+                        padding-left: 48px;
+                    }
+                    .image {
+                        filter: brightness(0) invert(1);
+                        padding: 48px;
+                    }
+
+            .formulaire {
+                display: flex;
+                align-items: flex-start;
+                padding-top: 100px;
+            }
+
+                form > .form {
+                    display: flex;
+                    justify-content: space-between;
+                    }
+
+                    input {
+                        margin-left: 540px;
+                        margin-bottom: 24px; 
+                        margin-right: 48px;
+                        border-radius: 5px; 
+                        /* display: inline-block;           */
+                    }
+
+                    label {
+                        padding-left: 48px;
+                    }
+
+                    select {
+                        margin-bottom: 24px;
+                        margin-right: 48px;
+                        width: 24px ;
+                        border-radius: 5px;
+
+                    }
+                    
+            
+            
+                    .button {
+                        height: 36px;
+                        width: 100px;
+                        background-color: #E2001A;
+                        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.332);
+                        font-size: 14px;
+                        color: white;
+                        border-radius: 5px;
+                        border: none;
+                    }
+
+                .form2 {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 100px;
+
+                }
+                    
+
+.imageBlack {
+    filter: none;
 }
 
-.icon {
+.parameter {
+    align-self: flex-start;
+}
+
+
+span {
     color: white;
-    font-size: 24px;
 }
+
+.imageHome {
+    padding-bottom: 10px;
+}
+
