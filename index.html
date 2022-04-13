@@ -121,11 +121,13 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <img src="/assests/img/laManu.jpg" alt=""></div>
             <div class="formContact">
-                <div class="titleForm"><h3 class="titre">Formulaire de contact</h3>
+                <div class="titleForm">
+                    <h3 class="titre">Formulaire de contact</h3>
                     <div class="formInfo"> <img src="/assests/icons/phone-solid.svg" alt=""> 03 22 91 39 19 </div>
                     <div class="formInfo"> <img src="/assests/icons/at-solid.svg" alt=""> mairie-amiens@amiens.com</div>
-                    <div class="formInfo"> <img src="/assests/icons/location-dot-solid.svg" alt="">70 rue des Jacobins <br>
-                    80000,Amiens</div>
+                    <div class="formInfo"> <img src="/assests/icons/location-dot-solid.svg" alt="">70 rue des Jacobins
+                        <br>
+                        80000,Amiens</div>
                     <div class="void"></div>
                     <div class="formMedia">
                         <img src="/assests/icons/facebook-brands.svg" alt="">
@@ -133,7 +135,59 @@
                         <img src="/assests/icons/instagram-brands.svg" alt="">
                     </div>
                 </div>
-                <div class="trueForm"></div>
+                <form class="trueForm">
+                    <fieldset class="infoBase">
+                        <div class="textFormInput"><label for="Nom">Nom</label></div>
+                        <div class="textFormInput"><label for="Prenom">Prénom</label></div>
+                        <div class="textFormInput">
+                        
+                            
+                            <input type="text" name="Nom" id="Nom" class="textZone">
+                        </div>
+                        <div class="textFormInput">
+                            
+                            <input type="text" name="Prenom" id="Prenom" class="textZone">
+                        </div>
+
+                        <div class="textFormInput"><label for="mail">Mail</label></div>
+                        <div class="textFormInput"><label for="telephone">Téléphone</label></div>
+
+                        <div class="textFormInput">
+                            
+                            <input type="email" name="mail" id="mail" class="textZone">
+                        </div>
+                        <div class="textFormInput">
+                            
+                            <input type="tel" name="telephone" id="telephone" class="textZone">
+                        </div>
+
+
+                    </fieldset>
+                    <fieldset class="formRadio">
+                        <div class="titreRadio">
+                        <p>De quoi auriez-vous besoin ?</p>
+                    </div>
+                        <div> <input type="radio" id="Choice1" name="contact" value="blabla">
+                            <label for="Choice1">blabla</label>
+
+                            <input type="radio" id="Choice2" name="contact" value="blablabla">
+                            <label for="Choice2">blablabla</label>
+
+                            <input type="radio" id="Choice3" name="contact" value="autre">
+                            <label for="Choice3">autre</label>
+                            <input type="radio" id="Choice4" name="contact" value="reponseD">
+                            <label for="Choice4">Réponse D</label></div>
+
+                    </fieldset>
+                    <fieldset class="finalMessage">
+                        <p>Message</p>
+                        <textarea name="Message" id="Message" cols="80" rows="2" class="textZone"></textarea>
+                    </fieldset>
+                    <div>
+                        <button type="submit" class="Envoyerbtn">Envoyer</button>
+                      </div>
+                </form>
+
             </div>
 
 
