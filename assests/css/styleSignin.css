@@ -1,0 +1,206 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.titlePage {
+    height: 90vh;
+    background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.navbtn {
+    display: flex;
+    gap: 2rem;
+    flex: 2;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navimg {
+    flex: 0.5;
+    margin-left: 2rem;
+}
+
+.navexpo {
+    flex: 0.5;
+    margin-right: 2rem;
+    text-align: end;
+}
+
+.butonexpo {
+    color: #E2001A;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+}
+
+.navimg img {
+    height: 70px;
+    width: 80px;
+}
+
+.titlePage{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.349);
+    }
+
+.title h1{
+    font-size: 60px;
+    font-family: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.title div{
+    font-size: 48px;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 0px;
+}
+
+.flex{
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    gap: 6rem;
+    
+}
+
+#buttonInfos{
+    background-color: rgba(0, 0, 0, 0.158);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#buttonInscription{
+    background-color: #E2001A;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* fin de style pour la navbar  */
+
+    /* body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto;
+    } */
+
+h4 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+#box {
+    display: flex;
+    padding-top: 148px;
+}
+
+
+.mainBox {
+    width: 1342px;
+    height: 620px;
+    background-color: #E2001A;
+    border-radius: 16px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+} 
+
+.leftSection {  
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    height: 324px;    
+}
+
+.cardHead {
+
+}
+
+.rightSection {
+    margin-right: 180px;
+}
+
+.logoManu {
+    height: 324px;
+    width: 324px;
+}
+
+.button1 {
+    background-color: black;
+    height: 36px;
+    width: 206px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 38px;
+    margin-left: 0;    
+}
+
+.champ {
+    height: 36px;
+    width: 206px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 38px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+
