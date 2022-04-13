@@ -182,13 +182,14 @@ display: flex;
 .mapsContact{
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
-    background-color: #720411;
-    padding-top: 3rem;
+    height: 90vh;
+    background: rgb(49,49,49);
+background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgba(254,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    padding-top: 1rem;
 }
 
 .titleAcces{
-    flex: 35vw;
+    flex: 30vw;
     display: flex;
     height: 2rem;
     padding-left: 2rem;
@@ -196,6 +197,7 @@ display: flex;
 .titleAcces img{
     height: 20px;
     width: 20px;
+    
 }
 .titleAcces h3{
     margin-top: 0px;
@@ -233,6 +235,7 @@ display: flex;
     padding: 3rem;
     position: relative;
     right: 2%;
+    bottom: 5%;
     
 }
 .mapsManu img{
@@ -250,6 +253,7 @@ display: flex;
 .formContact{
     flex: 65vw;
     display: flex;
+    height: 620px;
 }
 .titleForm{
     display: flex;
@@ -258,7 +262,7 @@ display: flex;
     height: 79vh;
     background-color: #E2001A;
     position: relative;
-    top: 5.9%;
+    top: 0.9%;
     border-radius: 30px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
     
@@ -300,7 +304,7 @@ display: flex;
     background-color: white;
     height: 79vh;
     position: relative;
-    top: 5.9%;
+    top: 0.9%;
     margin-right: 10%;
     border-radius: 30px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333)
@@ -345,4 +349,15 @@ display: flex;
 
 .Envoyerbtn{
     background-color: #E2001A;
+    position: relative;
+    left: 80%;
+    bottom: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-around;
 }
