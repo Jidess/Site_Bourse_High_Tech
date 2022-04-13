@@ -193,10 +193,13 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     display: flex;
     height: 2rem;
     padding-left: 2rem;
+    color: white;
 }
 .titleAcces img{
     height: 20px;
     width: 20px;
+    margin-right: 1rem;
+    filter: brightness(0) invert(1);
     
 }
 .titleAcces h3{
@@ -211,9 +214,12 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
 .titleContact img{
     height: 20px;
     width: 20px;
+    margin-right: 1rem;
+    filter: brightness(0) invert(1);
 }
 .titleContact h3{
     margin-top: 0px;
+    color: white;
 }
 
 .upPage{
@@ -223,6 +229,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
 .upPage img{
     height: 20px;
     width: 20px;
+    filter: brightness(0) invert(1);
 }
 
 .mapsManu{
@@ -261,6 +268,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     flex-direction: column;
     height: 79vh;
     background-color: #E2001A;
+    color: white;
     position: relative;
     top: 0.9%;
     border-radius: 30px;
@@ -278,17 +286,20 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
 .formInfo{
     flex: 1;
     padding-left: 2rem;
+    font-size: 14px;
 }
 .formInfo img{
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
+    filter: brightness(0) invert(1);
 }
 .void{
     flex: 2;
 }
 .formMedia img{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) invert(1);
 }
 
 .formMedia{
@@ -298,6 +309,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
 }
 
 .trueForm{
+    font-size: 14px;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -312,6 +324,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
 }
 
 .infoBase{
+    padding-top: 2rem;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -355,9 +368,20 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     border: none;
     padding: 1rem;
     border-radius: 10px;
+    color: white;
 }
+
+/* footer  */
+
 
 .footer{
     display:flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    filter: brightness(0);
+    height: 150px;
+    width: 150px;
 }
