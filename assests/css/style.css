@@ -22,7 +22,7 @@ a{
 
 .titlePage {
     height: 90vh;
-    background-image: url(assests/img/Image_manu/Manu_campus.jpg);
+    background-image: url(assests\img\Image_manu\Manu_campus.jpg);
     background-size: 100%;
     background-position-y: center;
     background-repeat: no-repeat;
