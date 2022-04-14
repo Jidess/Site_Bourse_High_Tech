@@ -153,13 +153,14 @@ margin: 0px;
 
 }
 .iconInfoPrat img {
-    height: 70px;
-    width: 70px;
+    height: 36px;
+    width: 36px;
     
 }
 .infoPratTxt {
     flex: 75vw;
     padding-left: 4rem;
+    font-size: 14px;
 }
 
 .listInfo{
@@ -167,6 +168,7 @@ margin: 0px;
     flex-wrap: wrap;
     margin-top: 5vh;
     height: 81vh;
+    font-size: 14px;
 }
 
 .iconListInfo{
@@ -275,6 +277,8 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     display: flex;
     height: 620px;
     max-width: 1030px;
+    position: relative;
+    top: 1%;
 }
 .titleForm{
     display: flex;
@@ -295,6 +299,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     padding-left: 2rem;
     padding-top: 25%;
     align-items: center;
+    font-size: 24px;
 }
 
 .formInfo{
