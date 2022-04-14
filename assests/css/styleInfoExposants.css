@@ -36,9 +36,6 @@ body {
         display: flex;
     }
 
-        /* .parameter {
-            
-        } */
 
         .wrapper {
             background-color: white;
@@ -48,57 +45,19 @@ body {
             border-radius: 16px;
             box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
             padding-left: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
         }
 
-            .topLine {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-}
-
-                    h4 {
-                        font-size: 24px;
-                        padding-left: 48px;
-                    }
+    
                     .image {
                         filter: brightness(0) invert(1);
                         padding: 48px;
                     }
-
-            .formulaire {
-                display: flex;
-                align-items: flex-start;
-                padding-top: 100px;
-            }
-
-                form > .form {
-                    display: flex;
-                    justify-content: space-between;
-                    }
-
-                    input {
-                        margin-left: 540px;
-                        margin-bottom: 24px; 
-                        margin-right: 48px;
-                        border-radius: 5px; 
-                        /* display: inline-block;           */
-                    }
-
-                    label {
-                        padding-left: 48px;
-                    }
-
-                    select {
-                        margin-bottom: 24px;
-                        margin-right: 48px;
-                        width: 24px ;
-                        border-radius: 5px;
-
-                    }
-                    
             
-            
-                    .button {
+                    /* .button {
                         height: 36px;
                         width: 100px;
                         background-color: #E2001A;
@@ -107,7 +66,7 @@ body {
                         color: white;
                         border-radius: 5px;
                         border: none;
-                    }
+                    } */
 
                 .form2 {
                     display: flex;
@@ -153,3 +112,28 @@ a {
     border: none;
 }
 
+.infoButton {
+    align-self: flex-start;
+}
+
+.buttonReturn2 {
+    align-self: flex-end;
+    margin-right: 48px;
+}
+
+p {
+    padding-right: 48px;
+    font-size: 14px;
+}
+
+h4 {
+    padding-right: 48px;
+    margin-bottom: -24px;
+    font-size: 24px;
+}
+
+ul {
+    padding-right: 48px;
+    margin-top: -30px;
+
+}
