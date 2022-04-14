@@ -254,7 +254,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     position: relative;
     right: 2%;
     bottom: 5%;
-    
+    max-width: 450px;
 }
 .mapsManu img{
     width: 450px;
@@ -272,6 +272,7 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     flex: 65vw;
     display: flex;
     height: 620px;
+    max-width: 1030px;
 }
 .titleForm{
     display: flex;
