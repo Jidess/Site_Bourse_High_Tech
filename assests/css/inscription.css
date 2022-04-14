@@ -3,6 +3,11 @@ body {
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,12 +47,13 @@ body {
 
 .butonexpo {
     color: #E2001A;
-    border: solid 1px;
+    border: none;
     border-radius: 10px;
+    height: 36px;
     padding: 10px;
     font-size: 14px;
     background-color: white;
-    border-color: black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
 .navimg img {
